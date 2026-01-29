@@ -1,0 +1,42 @@
+Build the API
+Build a Key-Value REST API using FastAPI and persist data using Django ORM with PostgreSQL/MySQL.
+
+APIs
+
+POST /items/ → create {key, value}
+
+GET /items/{key} → get value by key
+
+PUT /items/{key} → update value by key
+
+DELETE /items/{key} → delete by key
+
+GET /items/ → list items (support pagination with page, page_size)
+
+Rate Limit
+Apply rate limiting for /items/*: 60 requests/min per client, return HTTP 429 when exceeded.
+
+Build a Python Client (production-grade)
+Build a Python client to interact with the above API with reliability and fault tolerance.
+
+Requirements
+
+Fault Tolerance & Retries
+
+Handle transient failures and network-level errors
+
+Correctly handle HTTP 429 responses
+
+Backoff Strategy
+
+Implement Exponential Backoff for retries
+
+Add Jitter to retry delays
+
+Idempotency & Safety
+
+Ensure data integrity when retrying non-idempotent operations
+
+Prevent duplicate record creation / inconsistent states during retries
+
+Please share the code as a zip folder (or a repo link) and include a short README with steps to run locally.
