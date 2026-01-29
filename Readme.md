@@ -1,8 +1,3 @@
-Yes 👍
-Below is the **exact `README.md` content in proper Markdown format**.
-You can **copy–paste this directly into a file named `README.md`**.
-
----
 
 ```md
 # 📦 Botgauge Key-Value REST API
@@ -246,7 +241,7 @@ client.delete("hello")
 
 ---
 
-## 🏁 Conclusion
+## Conclusion
 
 This project demonstrates a **real-world backend system** with proper API design, database integration, rate limiting, and a resilient client. The architecture and implementation follow production best practices.
 
