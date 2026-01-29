@@ -1,6 +1,6 @@
 
 ```md
-# 📦 Botgauge Key-Value REST API
+# Botgauge  REST API
 
 A production-ready **Key-Value REST API** built using **FastAPI** with **Django ORM** and **PostgreSQL**, including **rate limiting** and a **fault-tolerant Python client**.
 
@@ -244,8 +244,4 @@ client.delete("hello")
 ## Conclusion
 
 This project demonstrates a **real-world backend system** with proper API design, database integration, rate limiting, and a resilient client. The architecture and implementation follow production best practices.
-
-````
-
----
 
